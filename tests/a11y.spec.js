@@ -8,8 +8,7 @@ import 'dotenv/config';
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const gemini = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
-const folderName = path.join(__dirname, '../a11y-findings/');
-const fileName = `${folderName}report.json`;
+
 const url =
   'https://www.conet.de/blog/sap-fiori-sap-screen-personas-das-beste-aus-zwei-welten/';
 
