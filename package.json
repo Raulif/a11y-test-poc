@@ -1,0 +1,21 @@
+{
+  "name": "accessibility-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.0.14"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.10.2",
+    "@google/genai": "^1.9.0",
+    "axe-playwright": "^2.1.0",
+    "dotenv": "^17.2.0"
+  }
+}
